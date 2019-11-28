@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="CSS project/Home.css"> 
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">   
+        
+    
+    
+    <style>
+        *{
+            box-sizing: border-box;
+            margin-left:0px;
+            padding: 0;
+        }
+        .body{
+             background-image: url(../Imagess/bg-home.jpg);
+        }
+.parallax {
+  /* The image used */
+  
+
+  /* Set a specific height */
+  min-height: 500px;
+    
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+        .about{
+            margin-left: 50px;
+            
+        }
+        .imagess{
+            height:50px;
+            width:50px;
+        }
+        .abt{
+            float: right;
+          /*  margin-right: 100px;*/
+            font-size: 60px;
+            /*margin-left: 200px;*/
+            color: black;
+            
+        }
+        section{
+            background-image: url(Imagess/bg_3.jpg);
+            width: 100%;
+            height:755px;
+        }
+        nav {
+  float: left;
+  width: 4%;
+  height: 300px; /* only for demonstration, should be removed */
+  
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+
+
+article {
+  float: right;
+  padding: 50px;
+  width: 60%;
+  
+    color:darkgrey;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+        .place h1{
+            color:black;
+        }
+   
+
+        .card-1{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:20px;
+            box-shadow: 0px 0px 6px grey;
+        }
+        .card-1:hover{
+            box-shadow: 0 8px 26px grey;
+           /* transform: scaleZ(90deg);*/
+            transform: scale(1.02);
+               
+        }
+        
+        img{
+            border-radius:5px;
+        }
+        .container{
+            padding:2px 16px;
+            font-size: 20px;
+        }.container:hover{
+            color:black;
+            transform: scale(1.02);
+        }
+        .card-2{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:20px;
+            box-shadow: 0px 0px 6px grey;
+        }
+        .card-2:hover{
+            box-shadow: 0 8px 26px grey;
+          /*  transform: scaleZ(90deg);*/
+            transform: scale(1.02);
+               
+        }.card-3{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:20px;
+            box-shadow: 0px 0px 6px grey;
+        }
+        .card-3:hover{
+            box-shadow: 0 8px 26px grey;
+         /*   transform: scaleZ(90deg);*/
+            transform: scale(1.02);
+               
+        }.card-4{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:20px;
+            box-shadow: 0px 0px 6px grey;
+        }
+        .card-4:hover{
+            box-shadow: 0 8px 26px grey;
+          /*  transform: scaleZ(90deg);*/
+              transform: scale(1.02); 
+        }.card-5{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:80px 20px ;
+            box-shadow: 0px 0px 6px grey;
+        }
+        .card-5:hover{
+            box-shadow: 0 8px 26px grey;
+            /*transform: scaleZ(90deg);*/
+            transform: scale(1.02);
+        }
+        
+            .card-6{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:80px 20px;
+            box-shadow: 0px 0px 6px grey;
+        }
+        .card-6:hover{
+            box-shadow: 0 8px 26px grey;
+            /*transform: scaleZ(90deg);*/
+        transform: scale(1.02);}
+        .card-7{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:80px 20px;
+            box-shadow: 0px 0px 6px grey;
+        } .card-7:hover{
+            box-shadow: 0 8px 26px grey;
+            /*transform: scaleZ(90deg);*/
+            transform: scale(1.02);
+               
+        }.card-8{
+            box-shadow: 0 4px 8px0 rgba(0,0,0,0.2);
+            transition: 2s;
+            width: 400px;
+            height:500px;
+            border-radius: 5px;
+            float:left;
+            margin:80px 20px;
+            box-shadow: 0px 0px 6px grey;
+        } .card-8:hover{
+            box-shadow: 0 8px 26px grey;
+           /* transform: scaleZ(90deg);*/
+            transform: scale(1.02);
+               
+        }
+        
+        
+        .tour h1{
+            color:black;
+        }
+        
+        footer {
+           /* position: fixed;*/
+            bottom: 0;
+        }
+
+        @media (max-height:800px) {
+            footer {
+                position: static;
+            }
+
+            header {
+                padding-top: 40px;
+            }
+        }
+
+
+        .footer-distributed {
+            background-color: white;
+            box-sizing: border-box;
+            width: 100%;
+            text-align: left;
+            font: bold 16px sans-serif;
+           /* padding: 50px 50px 60px 50px;*/
+            margin-top: 2px;
+        }
+
+        .footer-distributed .footer-bck .footer-left,
+        .footer-distributed .footer-bck .footer-center,
+        .footer-distributed .footer-bck .footer-right {
+            display: inline-block;
+            vertical-align: top;
+            background-color:#2c292f;
+            padding: 20px;
+            
+        }
+        .footer-bck{
+          background-color:#2c292f;
+            margin:0;
+            padding:0;
+            width:1790px;
+            
+        }
+
+        /* Footer left */
+
+        .footer-distributed .footer-bck .footer-left {
+            width: 30%;
+        }
+
+        .footer-distributed h3 {
+            color: #ffffff;
+            font: normal 36px 'Cookie', cursive;
+            margin: 0;
+        }
+
+        /* The company logo */
+
+        .footer-distributed .footer-bck .footer-left img {
+            width: 30%;
+        }
+
+        .footer-distributed h3 span {
+            color: #e0ac1c;
+        }
+
+        /* Footer links */
+
+        .footer-distributed .footer-bck .footer-links {
+            color: #ffffff;
+            margin: 20px 0 12px;
+        }
+
+        .footer-distributed .footer-bck .footer-links a {
+            display: inline-block;
+            line-height: 1.8;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .footer-distributed .footer-bck .footer-company-name {
+            color: #8f9296;
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        /* Footer Center */
+
+        .footer-distributed .footer-bck .footer-center {
+            width: 35%;
+        }
+
+
+        .footer-distributed .footer-bck .footer-center i {
+            background-color: #33383b;
+            color: #ffffff;
+            font-size: 25px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 42px;
+            margin: 10px 15px;
+            vertical-align: middle;
+        }
+
+        .footer-distributed .footer-bck .footer-center i.fa-envelope {
+            font-size: 17px;
+            line-height: 38px;
+        }
+
+        .footer-distributed .footer-bck .footer-center p {
+            display: inline-block;
+            color: #ffffff;
+            vertical-align: middle;
+            margin: 0;
+        }
+
+        .footer-distributed .footer-bck .footer-center p span {
+            display: block;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        .footer-distributed .footer-bck .footer-center p a {
+            color: #e0ac1c;
+            text-decoration: none;
+            ;
+        }
+        
+       
+
+       
+</style>
+</head>
+
+<body>
+    
+   <div class="mainmenu">
+       <img src="Imagess/logoo.png" width="80px;" height="90px;" style="float: left"><b>Hello there,Welcome to BonVoyage</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <ul><li class="active" style="align-content: center;"><a href="home.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        
+            <li><a href="about.html">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="Destination Page/correctdest.html">Destination</a></li>
+            <li><a href="contactus.html">Contact&nbsp;&nbsp;&nbsp;</a></li>
+            <a class=" btn" href="Contact.html">BOOK NOW</a>
+        </ul></div>
+         <div class="w3-content w3-section" style="width:100%;height:200px;">
+         <img class="mySlides" src="Imagess/bg-home.jpg" style="width:100%">
+        <img class="mySlides" src="Imagess/pr.jpg" style="width:100%">
+      
+  <img class="mySlides" src="Imagess/feedback.jpg" style="width:100%">
+  
+  <img class="mySlides" src="Imagess/po.jpg" style="width:100%"> 
+  </div>
+   
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+       
+           <!--<div class="d1">Travel to any corner of India,without going around in circles</div>
+           <div class="d2">Make Your Tour Amazing With US</div>-->
+           <p class="caps">Travel to the any corner of the world, without going around in circles</p>
+           
+            <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Make Your Tour Amazing With Us</h1>
+            <div class="parallax"></div>
+
+<div class="123" style="background-color:white;font-size:36px">
+    <section>
+    
+  <nav>
+     <img src="Imagess/about.jpg" height="730px;" width="700px;">
+  </nav>
+  
+  <article>
+    <h4 style="color:black; font-size: 50px;">&nbsp;&nbsp;&nbsp;&nbsp; Make Your Tour Memorable and Safe <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With Us</h4><br>
+    <p>Traveling is an extraordinary experience every person needs to try. It reveals a whole new and exciting world out there, opens out your inner strength, and presents with unforgettable adventures</p>
+    We know India by its heart and soul! Since we've explored the Indian vicinities for long, we make your India travel simple and hassle free.<br><br>
+
+<h6>What makes us Special?</h6>
+      <p>Thriving network of resources, dedicated and sincere experts, and our innovative itineraries, all this makes your travel experience exceptional and worthwhile.</p><br>
+      <h6> We Enrich your Travel Experience</h6>
+<p>When traveling with us, you enjoy access to special events, fairs, and festivals as we keep a tab on them at place where you are travelling. In Rajasthan, for example, you may get enthralled with various fair and festivals happening in a particular month. At Kerala, there is Onam, and a lot more in other parts of India.</p>
+  </article>
+</section>
+
+
+    </div><br>
+    <div class="place" style="height:1000px;background-color:white;font-size:36px"><br><br>
+        <h1>Best Place Destination</h1>
+        
+      
+               <div class="card-1">
+     <img src="Imagess/ker.jpg" alt="avtar" width="100%"  height="100%">
+       <div class="container">
+           <h4>Kerala</h4>
+           <p style="font-family: monospace"><i>Land of Coconut Trees</i></p></div>
+        </div>
+        <div class="card-2">
+     <img src="Imagess/kash.jpg" alt="avtar" width="100% " height="100%">
+       <div class="container">
+          <h4>Jammu and Kashmir</h4>
+           <p style="font-family: monospace"><i>Heaven on Earth</i></p>
+
+            </div></div> <div class="card-3">
+     <img src="Imagess/jaipur.jpg" alt="avtar" width="100%" height="100%">
+       <div class="container">
+          <h4>Jaipur</h4>
+           <p style="font-family: monospace"><i>The Pink City</i></p>
+
+            </div></div>    <div class="card-4">
+     <img src="Imagess/delhi.jpg" alt="avtar" width="100% " height="100%">
+       <div class="container">
+          <h4>Delhi</h4>
+           <p style="font-family: monospace"><i>Magnanimous Delhi</i></p>
+
+            </div></div><br><br>
+            
+                 <div class="card-5">
+     <img src="Imagess/agra.jpg" alt="avtar" width="100% " height="100%">
+       <div class="container">
+          <h4>Agra</h4>
+           <p style="font-family: monospace"><i>Majesty of Taj</i></p>
+
+            </div></div> <div class="card-6">
+     <img src="Imagess/kutch.jpg" alt="avtar" width="100% " height="100%">
+       <div class="container">
+          <h4>Kutch</h4>
+           <p style="font-family: monospace"><i>Heart of Gujarat</i></p>
+
+            </div></div> <div class="card-7">
+     <img src="Imagess/hydrabad.jpg" alt="avtar" width="100% " height="100%">
+       <div class="container">
+          <h4>Hydrabad</h4>
+           <p style="font-family: monospace"><i>City of pearls</i></p>
+
+            </div></div>
+             <div class="card-8">
+     <img src="Imagess/amritsar.jpg" alt="avtar" width="100% " height="100%">
+       <div class="container">
+          <h4>Amritsar</h4>
+           <p style="font-family: monospace"><i>Home to GoldenTemple </i></p>
+
+                 </div></div>
+                 
+                 
+                 </div>
+                 
+     <div class="tour" style="height:1000px;background-color:white;font-size:36px;"><br><br><br><br><br><br>
+        <h1><br><br>Tourist Feedback</h1>
+        
+     
+               <div class="card-1" style="margin:30px 80px;background-image: url(Imagess/gkl.jpg);background-size: cover;">
+     
+       <div class="container">
+           
+           <p style="font-family: monospace"><i> <b>Amyra:</b> We travelled to Goa for our trip with BonVoyage. We loved all arrangements made by them for tours. We stayed at Quest Hotel Kuta which is a very good place to stay with all amenities & services easily accessible. Goa is a very beautiful place.. Truly mesmerised by the beauty of oceans... We recommend services of BonVoyage to everyone..</i></p></div>
+        </div>
+        <div class="card-2"style="margin:30px 80px;background-image: url(Imagess/gkl.jpg);background-size: cover;">
+     
+       <div class="container">
+          
+           <p style="font-family: monospace"><i><b>Prashant:</b> Fantastic Service. Recently arranged Jaipur package for our friends & relatives through BonVoyage. We loved the trip.Arrangements are simply awesome and very good.Thank you,I highly recommend this service. </i></p>
+
+            </div></div> <div class="card-3" style="margin:30px 80px;background-image: url(Imagess/gkl.jpg);background-size: cover;">
+     
+       <div class="container">
+          
+           <p style="font-family: monospace"><i><b>Richa:</b> We have booked Kutch tour package and it was wonderful experience with them. They have provided all he services as promised and the Indian food was delicious... I highly recommend travelers to choose them. </i></p>
+
+            
+                 
+                 </div>
+                       </div></div>
+                       
+                       <footer class="footer-distributed"style="height:800px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                   <div class="footer-bck"><br><br>
+                <div class="footer-left">
+                    <img src="Imagess/logoo.png" style="width: 100px; height: 100px;">
+                    <h3>About&nbsp;<span>BonVoyage</span></h3>
+
+                    <p class="footer-links">
+                        <a href="#">Home</a>
+                        |
+                        <a href="#">Blog</a>
+                        |
+                        <a href="#">About</a>
+                        |
+                        <a href="#">Contact</a>
+                    </p>
+
+                    <p class="footer-company-name">© 2019 Bon Voyage Pvt. Ltd.</p>
+                </div>
+
+                <div class="footer-center">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>NH-2,GLA UNIVERSITY
+                                </span>
+                            MATHURA - 205001</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+91 22-27782183</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@bonvoyage.com">support@bonvoyage.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-company-about">
+                        <span>About the company</span>
+                        We offer best travelling deals at reasonable price and make sure that the journey became memorable for you.</p>
+                    <div class="footer-icons" style="color:white;">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                       </div></div>
+            </footer>
+ 
+        
+   <!--  <div class="footer" style="height:1000px;background-color:black;font-size:36px">
+       <div class="fleft">
+        <h4>Information</h4>
+    
+          </div>-->
+		
+      
+</body>
+</html>
+
+
+
+
